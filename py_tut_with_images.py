@@ -17,13 +17,13 @@ class Player(pygame.sprite.Sprite):
 
     def update(self, pressed_keys):
         if pressed_keys[K_UP]:
-            self.rect.move_ip(0, -5)
+            self.rect.move_ip(0, -1)
         if pressed_keys[K_DOWN]:
-            self.rect.move_ip(0, 5)
+            self.rect.move_ip(0, 1)
         if pressed_keys[K_LEFT]:
-            self.rect.move_ip(-5, 0)
+            self.rect.move_ip(-1, 0)
         if pressed_keys[K_RIGHT]:
-            self.rect.move_ip(5, 0)
+            self.rect.move_ip(1, 0)
 
         # Keep player on the screen
         if self.rect.left < 0:
@@ -43,7 +43,7 @@ class Enemy(pygame.sprite.Sprite):
         self.image.set_colorkey((255, 255, 255), RLEACCEL)
         self.rect = self.image.get_rect(
             center=(random.randint(820, 900), random.randint(0, 600)))
-        self.speed = random.randint(5, 20)
+        self.speed = random.randint(0, 1)
 
     def update(self):
         self.rect.move_ip(-self.speed, 0)
@@ -61,7 +61,7 @@ class Cloud(pygame.sprite.Sprite):
         )
 
     def update(self):
-        self.rect.move_ip(-5, 0)
+        self.rect.move_ip(-2, 0)
         if self.rect.right < 0:
             self.kill()
 

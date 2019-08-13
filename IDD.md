@@ -30,13 +30,13 @@
 ## 方案
 > 针对困难和目标功能的开发计划、问题分析
 
-- [ ] **d1 理解realpython中pygame例子的每一行代码** 60+32
+- [x] **d1 理解realpython中pygame例子的每一行代码** 60+32
 - [ ] **d2 理解snaky代码**
-  - [ ] < 任务 >（< SHA >   t< 用时min >）
-    - 思考
+  - 思考：由于理解snaky代码难度太大了，要尝试先自己写下realpython的例子
+  - from...import... 和 import 怎么使用？
+    - [Python导入模块的几种姿势](https://codingpy.com/article/python-import-101/)
 - [ ] **具体作业追踪 Issue 模板建议**
-
-    - [ ] < 任务 >（< SHA >   t< 用时min >）
+- [ ] < 任务 >（< SHA >   t< 用时min >）
         - 思考
 - [ ] 「具体作业追踪 Issue 模板建议」（md格式「+」替换为「-」）
 ### 收集箱
