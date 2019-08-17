@@ -1,15 +1,14 @@
 ## 理解
 > 任务分析
 
-- 实现机器人自动通关贪吃蛇
+- 学习运用在AIphaGo上运用的工具
 
 
 
 ## 困难
 > 任务预想主要困难点
 
-- 理解`pygame`如何实现贪吃蛇
-- 如何构建自动通关的机器人
+- 未知AIphaGo运用哪些工具和知识
 
 
 
@@ -31,10 +30,17 @@
 > 针对困难和目标功能的开发计划、问题分析
 
 - [x] **d1 理解realpython中pygame例子的每一行代码** 60+32
-- [ ] **d2 理解snaky代码**
+- [x] **d2 理解snaky代码**
   - 思考：由于理解snaky代码难度太大了，要尝试先自己写下realpython的例子
   - from...import... 和 import 怎么使用？
     - [Python导入模块的几种姿势](https://codingpy.com/article/python-import-101/)
+- [ ] **d3 寻找AIphaGo的资料 **
+    - [ ] 目前最新版是 AlpahGo Zero
+        - [ ] 要了解其用到的工具和知识点，必须从官方渠道知道
+            - [ ] 提问的智慧
+            - [ ] [DeepMind](https://deepmind.com)
+            - [ ] 学习英语阅读
+            - [ ] 刻意练习
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 用时min >）
         - 思考
