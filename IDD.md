@@ -41,6 +41,15 @@
             - [ ] [DeepMind](https://deepmind.com)
             - [ ] 学习英语阅读
             - [ ] 刻意练习
+- [ ] **d？ 学习Keras**
+    - [ ] 参考：《 [当 AlphaGo 战胜李世石以后，我们来聊聊深度学习](https://www.infoq.cn/article/Lets-talk-about-deep-learning.) 》
+    - [x] 安装ubuntu
+    - [ ] relu函数是？
+    - [ ] 理解2.3.1
+      - [ ] x[i, j] 是什么？
+        - [ ] https://blog.csdn.net/xinjieyuan/article/details/81429048
+      - [ ] x.shape ?
+        - [ ] 轴？
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 用时min >）
         - 思考
